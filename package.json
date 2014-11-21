@@ -1,0 +1,25 @@
+{
+    "name": "ssh2-tail",
+    "version": "0.0.1",
+    "description": "Tailing remote files over ssh",
+    "main": "./lib",
+    "dependencies": {
+        "ssh2": "^0.3.x"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Stefan Lapers",
+    "keywords": [ "ssh2", "tail", "remote" ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/slapers/node-ssh2-tail/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/slapers/node-ssh2-tail.git"
+    }
+}
